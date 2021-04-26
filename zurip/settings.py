@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9dzyfwf^)2=4)f4rutj)1@x0)(s32=8mj^v0&qm#f493ncuali
 
 # SECURITY WARNING: don't run with debug turned on in production!
 from environs import Env
-DEBUG = False
+DEBUG = True
 
 env = Env() # new
 env.read_env()
