@@ -30,7 +30,7 @@ DEBUG = False
 env = Env() # new
 env.read_env()
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.herokuapp.com' , 'localhost' , '127.0.0.1']
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home' 
